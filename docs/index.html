@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:48:08
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-04 17:59:42
+ * @LastEditTime: 2019-12-05 10:45:43
  * @Email: animator.bullet@foxmail.com
  -->
 <!DOCTYPE html>
@@ -16,7 +16,9 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 <!-- PrismJS theme -->
-  <link rel="stylesheet" href="src/prism-tomorrow.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-tomorrow.css">
+  <!-- PrismJS theme
+<link rel="stylesheet" href="path/to/prismjs-theme.css"> -->
   <style>
     :root {
       /* Reduce the font size */
@@ -26,12 +28,12 @@
       --theme-hue: 325;
   
       /* Change the sidebar bullets */
-      --sidebar-nav-link-before-content: '😀';
+      --sidebar-nav-link-before-content: '🔥';
     }
   </style>
 </head>
 <body>
-  <div id="app">加载中...</div>
+  <div id="app">💿加载中...</div>
   <script>
     window.$docsify = {
       name: '',
@@ -45,5 +47,32 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <!-- docsify-themeable (latest v0.x.x) -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  <script>
+    window.$docsify = {
+      // 完整配置参数
+      search: {
+        maxAge: 86400000,               // 过期时间，单位毫秒，默认一天
+        paths: [],                      // or 'auto'，匹配文件路径
+        placeholder: '🔎搜索',  // 搜索提示框文字， 支持本地化，例子在下面
+        // placeholder: {
+        //   '/zh-cn/': '搜索',
+        //   '/': 'Type to search'
+        // },
+        noData: '❌找不到结果!',          // 找不到结果文字提示，支持本地化，例子在下面
+        // noData: {
+        //   '/zh-cn/': '找不到结果',
+        //   '/': 'No Results'
+        // },
+        depth: 2,                       // 搜索标题的最大程级, 1 - 6
+      }
+    }
+  </script>
+  <!-- 引入搜索模块 -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
 </body>
 </html>

@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-03 21:29:04
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-03 21:29:19
+ * @LastEditTime: 2019-12-05 10:34:28
  * @Email: animator.bullet@foxmail.com
  */
 /* ===========================================================
@@ -14,11 +14,16 @@
  * Register service worker.
  * ========================================================== */
 
-const RUNTIME = 'docsify'
+const RUNTIME = 'aceDocs'
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
   'fonts.gstatic.com',
   'fonts.googleapis.com',
+  'github.com',
+  'raw.github.com',
+  'poser.pugx.org',
+  'ionicabizau.github.io',
+  'opencollective.com',
   'unpkg.com'
 ]
 

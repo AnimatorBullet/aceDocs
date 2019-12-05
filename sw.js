@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-03 21:29:04
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-05 10:34:28
+ * @LastEditTime: 2019-12-05 10:47:54
  * @Email: animator.bullet@foxmail.com
  */
 /* ===========================================================
@@ -22,8 +22,8 @@ const HOSTNAME_WHITELIST = [
   'github.com',
   'raw.github.com',
   'poser.pugx.org',
-  'ionicabizau.github.io',
-  'opencollective.com',
+  'animatorbullet.github.io',
+  'acedocs.tk',
   'unpkg.com'
 ]
 

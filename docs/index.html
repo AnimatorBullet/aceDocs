@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:48:08
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-05 23:56:32
+ * @LastEditTime: 2019-12-06 13:57:03
  * @Email: animator.bullet@foxmail.com
  -->
 <!DOCTYPE html>
@@ -14,7 +14,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="HelpDocs，by：BulletS">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="SimpleDark">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css" title="Vue">
 <!-- PrismJS theme -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-tomorrow.css">
   <link rel="icon" type="image/png" sizes="32x32" href="_img/favicon.ico">
@@ -23,22 +24,42 @@
   <style>
     :root {
       /* Reduce the font size */
-      --base-font-size: 14px;
+      --base-font-size: 15px;
   
       /* Change the theme color hue */
       --theme-hue: 180;
   
       /* Change the sidebar bullets */
       --sidebar-nav-link-before-content: '🔵';
+      --base-font-family               : 'Lato', sans-serif;
+      --base-font-weight               : bolder;
+      --base-line-height               : 1.8;
+      --cover-color                    : ;
+      --cover-margin                   : 0 auto;
+      --cover-max-width                : 40em;
+      --cover-text-align               : center;
+      --search-background              : ;
+      --search-margin                  : 1.5rem 0 0;
+      --search-padding                 : ;
+
+    /* Input */
+    --search-input-background-image  : ;
+    --search-input-background-repeat : no-repeat;
+    --search-input-border-color      : var(--mono-tint1);
+    --search-input-border-width      : 1px;
+    --search-input-margin            : ;
+    --search-input-padding           : 0.5em;
+
+    --docsifytabs-tab-color             : rgb(101, 160, 175);
     }
   </style>
   <!-- <script src='//unpkg.com/valine/dist/Valine.min.js'></script> -->
 </head>
 <body>
-  <div id="app">💿 加载中...</div>
+  <div id="app">💿</div>
   <script>
     window.$docsify = {
-      name: '| HelpDocs -Bullet.S |   ',
+      name: '| HelpDocs -Bullet.S | <br /><img src="_img/avatar.gif" height="128px">',
       repo: 'https://github.com/AnimatorBullet/aceDocs.git',
       themeable: {
             readyTransition : true, // default
@@ -74,6 +95,13 @@
         previousText: '上一章节',
         nextText: '下一章节',
       },
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
       noEmoji: true,
       loadSidebar: true,
       autoHeader: true,
@@ -88,8 +116,8 @@
           var footer = [
             '<hr/>',
             '<footer>',
-            '<span><a href="https://github.com/AnimatorBullet">Bullet.S</a> &copy;2019 ---- </span>',
-            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '<span><a href="https://github.com/AnimatorBullet">Bullet.S</a> &copy;2019 -- </span>',
+            '<span>Published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
             '</footer>'
           ].join('')
 
@@ -110,8 +138,12 @@
       navigator.serviceWorker.register('sw.js')
     }
   </script>
+  <!-- docsify (latest v4.x.x)-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script> -->
+
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-http.min.js"></script>
@@ -124,10 +156,10 @@
   <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script>
+  <!-- <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> -->
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> -->
+  <!-- <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+  <!-- <script>
     const gitalk = new Gitalk({
       clientID: 'd89af3d290bacc12dbb7',
       clientSecret: '51df9b35f3ddd3cd29710739392ea08dcb4edde3',
@@ -137,7 +169,7 @@
       // facebook-like distraction free mode
       distractionFreeMode: false
     })
-  </script>
+  </script> -->
   <!-- <div id="vcomments"></div>
   <script>
       new Valine({
@@ -148,5 +180,11 @@
           placeholder: '请留下您宝贵的建议~'
       })
   </script> -->
+  <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'Bullet-S/aceDocs',
+      };
+  </script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 </body>
 </html>

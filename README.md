@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:47:31
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-06 13:41:47
+ * @LastEditTime: 2019-12-08 14:04:23
  * @Email: animator.bullet@foxmail.com
  -->
 
@@ -43,6 +43,6 @@ Bonjour!
 Ciao!
 
 <!-- tabs:end -->
-## 下载
+### 下载
 
-[![](https://img.shields.io/badge/BulletsTools-v0.7-brightgreen)](https://space.bilibili.com/2031113)&emsp;[![](https://img.shields.io/badge/BulletKeyTools-v0.7-ff69b4)](https://space.bilibili.com/2031113)
+[![](https://img.shields.io/static/v1?label=BulletsTools&message=v0.7&color=success&style=flat&logo=github)](https://github.com/AnimatorBullet/BulletTools)&emsp;[![](https://img.shields.io/static/v1?label=BulletKeyTools&message=v0.7&color=success&style=flat&logo=github)](https://github.com/AnimatorBullet/BulletKeyTools)

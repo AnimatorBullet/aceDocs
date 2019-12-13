@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:48:08
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-13 19:45:11
+ * @LastEditTime: 2019-12-14 03:15:06
  * @Email: animator.bullet@foxmail.com
  -->
 <!DOCTYPE html>
@@ -16,20 +16,22 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="SimpleDark">
 <!-- PrismJS theme -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-tomorrow.css">
+  <link rel="stylesheet" href="prism-tomorrow.css">
   <link rel="icon" type="image/png" sizes="32x32" href="_img/favicon.ico">
   <!-- PrismJS theme
 <link rel="stylesheet" href="path/to/prismjs-theme.css"> -->
   <style>
     :root {
       /* Reduce the font size */
-      --base-font-size: 15px;
+      --base-font-size: 12px;
   
       /* Change the theme color hue */
       --theme-hue: 160;
 
       /* Change the sidebar bullets */
       --sidebar-nav-link-before-content: '✨';
+      --sidebar-nav-margin             : 0.5rem 0 0;
+      --hr-border-margin               : 0em 0;
       --base-font-family               : 'Lato', sans-serif;
       --base-font-weight               : bolder;
       --base-line-height               : 1.8;
@@ -38,25 +40,34 @@
       --cover-max-width                : 40em;
       --cover-text-align               : center;
       --search-background              : ;
-      --search-margin                  : 1.5rem 0 0;
+      --search-margin                  : 0.5rem 0 0;
       --search-padding                 : ;
 
     /* Input */
-    --search-input-background-image  : ;
-    --search-input-background-repeat : no-repeat;
-    --search-input-border-color      : var(--mono-tint1);
-    --search-input-border-width      : 1px;
-    --search-input-margin            : ;
-    --search-input-padding           : 0.5em;
+    --search-input-background-image : ;
+    --search-input-background-repeat: no-repeat;
+    --search-input-border-color     : var(--mono-tint1);
+    --search-input-border-width     : 1px;
+    --search-input-margin           : ;
+    --search-input-padding          : 0.5em;
 
     --docsifytabs-tab-color: rgb(101, 160, 175);
     --sidebar-background   : #ffffff00;
+    --pagination-border-top            : 1px solid var(--mono-tint2);
+    --pagination-chevron-height        : 0.8em;
+    --pagination-chevron-stroke        : currentColor;
+    --pagination-chevron-stroke-linecap: round;
+    --pagination-chevron-stroke-width  : 1px;
+    --pagination-label-color           : ;
+    --pagination-label-font-size       : var(--font-size-s);
+    --pagination-title-color           : ;
+    --pagination-title-font-size       : var(--font-size-l);
     }
   </style>
   <!-- <script src='//unpkg.com/valine/dist/Valine.min.js'></script> -->
 </head>
 <body>
-  <div id="app">💿</div>
+  <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'Bullet.S<br /><img src="_img/avatar.gif" height="128px">',
@@ -66,7 +77,7 @@
             responsiveTables: true  // default
       },
       coverpage: true,
-      onlyCover: false,
+      onlyCover: true,
       loadNavbar: true,
       loadSidebar: true,
       tocLevel: 6,
@@ -93,8 +104,8 @@
         depth: 4,                       // 搜索标题的最大程级, 1 - 6
       },
       pagination: {
-        previousText: '上一章节',
-        nextText: '下一章节',
+        previousText: '上一页',
+        nextText: '下一页',
       },
       tabs: {
         persist    : true,      // default
@@ -118,7 +129,7 @@
             '<hr/>',
             '<footer>',
             '<span><a href="https://github.com/AnimatorBullet">Bullet.S</a> &copy;2019 -- </span>',
-            '<span>Published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '<span>with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
             '</footer>'
           ].join('')
 
@@ -186,12 +197,9 @@
         room: 'Bullet-S/aceDocs',
       };
   </script>
-  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+  <script src="sidecar.v1.1.js" async defer></script>
   <!-- <script type="text/javascript" color="102,185,255" opacity="50" zIndex="-2" count="150" src="//static.ffis.me/javascript/canvas-nest.min.js"></script> -->
-  <script>
-    if (screen && screen.width > 480) {
-      document.write('<script type="text/javascript" color="102,185,255" opacity="50" zIndex="-3" count="233" src="//static.ffis.me/javascript/canvas-nest.min.js"><\/script>');
-    }
-  </script>
+  <script type="text/javascript" color="0,205,205" opacity='0.7' zIndex="-2" count="213" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+  <script src="dist/js/commento.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-05 22:18:42
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-08 14:04:15
+ * @LastEditTime: 2019-12-14 06:14:51
  * @Email: animator.bullet@foxmail.com
  -->
 ![logo](_img/avatar.gif)
@@ -19,6 +19,6 @@
 * 码字：Bullet.S
 
 [Start](Home.md)
-[GitHub]("https://github.com/AnimatorBullet")
+<!-- [GitHub]("https://github.com/AnimatorBullet") -->
 [Bilibili](https://space.bilibili.com/2031113)
 [aceBullet](https://acebullet.tk)

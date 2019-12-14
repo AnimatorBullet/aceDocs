@@ -3,11 +3,11 @@
  * @Author: Bullet.S
  * @Date: 2019-12-05 13:18:17
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-05 22:44:49
+ * @LastEditTime: 2019-12-14 23:33:50
  * @Email: animator.bullet@foxmail.com
  -->
 <!-- _navbar.md -->
 
-* [GitHub]("https://github.com/AnimatorBullet")
-* [Bilibili](https://space.bilibili.com/2031113)
-* [aceBullet](https://acebullet.tk)
+* [📑 GitHub]("https://github.com/AnimatorBullet")
+* [💤 Bilibili](https://space.bilibili.com/2031113)
+* [👒 aceBullet](https://acebullet.tk)

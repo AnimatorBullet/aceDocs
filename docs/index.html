@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:48:08
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-15 18:57:00
+ * @LastEditTime: 2019-12-15 23:56:34
  * @Email: animator.bullet@foxmail.com
  -->
 <!DOCTYPE html>
@@ -22,6 +22,8 @@
   <!-- PrismJS theme
 <link rel="stylesheet" href="path/to/prismjs-theme.css"> -->
   <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.0-1/css/all.css">
+  <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
   <style>
     :root {
       /* Reduce the font size */
@@ -185,31 +187,6 @@
   <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-  <!-- <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> -->
-  <!-- <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> -->
-  <!-- <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
-  <!-- <script>
-    const gitalk = new Gitalk({
-      clientID: 'd89af3d290bacc12dbb7',
-      clientSecret: '51df9b35f3ddd3cd29710739392ea08dcb4edde3',
-      repo: 'AnimatorBullet/aceDocs',
-      owner: 'AnimatorBullet',
-      admin: ['AnimatorBullet'],
-      // facebook-like distraction free mode
-      distractionFreeMode: false
-    })
-  </script> -->
-  <!-- <div id="vcomments"></div>
-  <script>
-      new Valine({
-          el: '#vcomments',
-          appId: '1AGeK3FqYwSwQ7LV8qDi7GB3-gzGzoHsz',
-          appKey: 'WBmhLPO8iX2PpC5nY0cSEdAU',
-          avatar: 'robohash',
-          placeholder: '请留下您宝贵的建议~'
-      })
-  </script> -->
   <script>
       ((window.gitter = {}).chat = {}).options = {
         room: 'Bullet-S/aceDocs',
@@ -220,5 +197,8 @@
   <script type="text/javascript" color="0,205,205" opacity='0.7' zIndex="-2" count="213" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
   <!-- <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script> -->
   <script type="text/javascript" src="_src/clicklove.js"></script>
+  <script type="text/javascript" src="_src/clickfire.js"></script>
+  <script defer src="https://cdn.staticfile.org/font-awesome/5.12.0-1/js/all.js"></script> 
+  <script defer src="https://cdn.staticfile.org/font-awesome/5.12.0-1/js/v4-shims.js"></script> 
 </body>
 </html>

@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-03 21:29:04
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-14 01:08:38
+ * @LastEditTime: 2019-12-15 15:19:55
  * @Email: animator.bullet@foxmail.com
  */
 /* ===========================================================
@@ -25,10 +25,7 @@ const HOSTNAME_WHITELIST = [
   'animatorbullet.github.io',
   'animatorbullet.github.io/aceDocs',
   'unpkg.com',
-  'google-analytics.com',
-  'static.ffis.me',
-  'img.shields.io',
-  'cdn.jsdelivr.net'
+  'cdn.bootcss.com'
 ]
 
 // The Util Function to hack URLs of intercepted requests

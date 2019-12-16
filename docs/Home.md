@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:47:31
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-16 22:09:51
+ * @LastEditTime: 2019-12-16 22:16:06
  * @Email: animator.bullet@foxmail.com
  -->
 
@@ -21,7 +21,7 @@
 想把max中K动画可能会用到的功能集成，并尽量精简，  
 能直接点的就不浪费脚本按，脚本能左键就不用右键。
 
-#### ** BulletsTools **
+#### ** BulletTools **
 
 ![preview_2](_img/preview_2.gif)  
 专为动画师定制，按钮全部可自定义，  
@@ -39,7 +39,7 @@ BulletKeyTools内置，快速打开文件，
 
 <sub>版权声明：[![license](https://img.shields.io/github/license/AnimatorBullet/aceDocs?style=flat-square)](https://raw.githubusercontent.com/AnimatorBullet/aceDocs/master/LICENSE)</sub>
 
-[![BulletsTools](https://img.shields.io/badge/BulletsTools-v0.7-blue?style=flat-square&logo=github)](https://github.com/AnimatorBullet/BulletTools/releases)&emsp;[![BulletKeyTools](https://img.shields.io/badge/BulletKeyTools-v0.8--fix1-success?style=flat-square&logo=github)](https://github.com/AnimatorBullet/BulletKeyTools/releases)
+[![BulletTools](https://img.shields.io/github/v/release/AnimatorBullet/BulletTools?color=blue&include_prereleases&label=BulletTools&logo=GitHub&style=flat-square)](https://github.com/AnimatorBullet/BulletTools/releases)&emsp;[![BulletKeyTools](https://img.shields.io/github/v/release/AnimatorBullet/BulletKeyTools?color=success&include_prereleases&label=BulletKeyTools&logo=GitHub&style=flat-square)](https://github.com/AnimatorBullet/BulletKeyTools/releases)
 
 ## 联系
 

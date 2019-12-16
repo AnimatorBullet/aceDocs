@@ -3,14 +3,14 @@
  * @Author: Bullet.S
  * @Date: 2019-12-05 22:18:42
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-16 22:09:37
+ * @LastEditTime: 2019-12-16 22:16:16
  * @Email: animator.bullet@foxmail.com
  -->
 ![logo](_img/avatar.gif)
 
 # aceDocs<sub>v0.1</sub>
 
-[![BulletsTools](https://img.shields.io/badge/BulletsTools-v0.7-blue?style=flat-square&logo=github)](https://github.com/AnimatorBullet/BulletTools)&emsp;[![BulletKeyTools](https://img.shields.io/badge/BulletKeyTools-v0.8--fix1-success?style=flat-square&logo=github)](https://github.com/AnimatorBullet/BulletKeyTools)
+[![BulletTools](https://img.shields.io/github/v/release/AnimatorBullet/BulletTools?color=blue&include_prereleases&label=BulletTools&logo=GitHub&style=flat-square)](https://github.com/AnimatorBullet/BulletTools/releases)&emsp;[![BulletKeyTools](https://img.shields.io/github/v/release/AnimatorBullet/BulletKeyTools?color=success&include_prereleases&label=BulletKeyTools&logo=GitHub&style=flat-square)](https://github.com/AnimatorBullet/BulletKeyTools/releases)
 
 > 🌠 Where amazing happens...
 

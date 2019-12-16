@@ -3,7 +3,7 @@
  * @Author: Bullet.S
  * @Date: 2019-12-16 10:09:48
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-16 13:13:15
+ * @LastEditTime: 2019-12-16 22:18:26
  * @Email: animator.bullet@foxmail.com
  -->
 
@@ -13,7 +13,7 @@
 - ⚔️ 工具介绍
     - 1️⃣ 3ds Max 脚本
         - [BulletKeyTools](tools/maxscripts/BulletKeyTools.md)
-        - [BulletsTools](tools/maxscripts/BulletsTools.md)
+        - [BulletTools](tools/maxscripts/BulletTools.md)
 - 🔖 自学笔记
     - [1️⃣ Unity](notes/Unity.md)
     - [2️⃣ Unreal](notes/Unreal.md)

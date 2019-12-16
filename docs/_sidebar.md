@@ -1,13 +1,13 @@
 <!--
  * @Description: 
  * @Author: Bullet.S
- * @Date: 2019-12-05 13:43:39
+ * @Date: 2019-12-16 10:09:48
  * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-15 23:51:47
+ * @LastEditTime: 2019-12-16 13:13:15
  * @Email: animator.bullet@foxmail.com
  -->
 
-- [👒 aceDocs](Home.md)
+- [🔥 aceDocs](Home.md)
     - [💠  功能概述](Guide.md)
     - [📥 更新下载](Update.md)
 - ⚔️ 工具介绍
@@ -25,7 +25,7 @@
     - [8️⃣ Shader](notes/Shader.md)
 - ⚙️ 进阶定制
 - 💭 建议反馈
-- 💊 关于关于
+- [💊 关于关于](About.md)
 
 ---
 - Enjoy it！

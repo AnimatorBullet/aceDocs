@@ -44,7 +44,7 @@ BulletKeyTools内置，快速打开文件，
 ## 联系
 
 [![Q群](https://img.shields.io/badge/交流吹水群-993590655-red?style=flat-square&logo=Tencent-QQ)](https://jq.qq.com/?_wv=1027&k=5jFuDzd)
-&ensp;[![公众号](https://img.shields.io/badge/微信公众号-@AnimTime-success?style=flat-square&logo=wechat)](About.md)
+&ensp;[![公众号](https://img.shields.io/badge/微信公众号-@AnimTime-success?style=flat-square&logo=wechat)](https://raw.githubusercontent.com/AnimatorBullet/aceDocs/master/docs/_img/WeChat.gif)
 [![Weibo](https://img.shields.io/badge/Weibo-@ace--Bullet-yellow?style=flat-square&logo=sina-weibo)](https://weibo.com/super117)
 &ensp;<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=mfj38PT47fbrt-vs9fX87dn-9uH0_PD1t-r29A" style="text-decoration:none;"><img src="https://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_21.png"/></a>  
 [![Huaban](https://img.shields.io/badge/(已荒废的)-花瓣-ff69b4?style=flat-square&logo=addthis)](https://huaban.com/animatorbullet/)

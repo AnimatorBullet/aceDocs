@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Bullet.S
  * @Date: 2019-12-04 12:48:08
- * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-16 13:30:43
+ * @LastEditors  : Bullet.S
+ * @LastEditTime : 2019-12-18 01:06:27
  * @Email: animator.bullet@foxmail.com
  -->
 <!DOCTYPE html>
@@ -142,7 +142,7 @@
       mergeNavbar: true,
       // logo: '/_img/favicon.ico',
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-      ga: 'UA-132765446-1',
+      ga: 'UA-132765446-2',
       plugins: [
         function (hook) {
           var footer = [
@@ -151,7 +151,6 @@
             '<span>with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
             '</footer>'
           ].join('')
-
           hook.afterEach(function (html) {
             return html + footer
           })
@@ -159,7 +158,7 @@
       ]
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
   <!-- docsify-themeable (latest v0.x.x) -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   <!-- 引入搜索模块 -->
@@ -176,6 +175,8 @@
   <!-- docsify-tabs (latest v1.x.x) -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="_src/ga.js"></script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js" data-ga="UA-132765446-2"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/prismjs/components/prism-sql.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-http.min.js"></script>
@@ -188,6 +189,7 @@
   <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script>
       ((window.gitter = {}).chat = {}).options = {
         room: 'Bullet-S/aceDocs',

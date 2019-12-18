@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Bullet.S
  * @Date: 2019-12-16 10:09:48
- * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-16 22:18:26
+ * @LastEditors  : Bullet.S
+ * @LastEditTime : 2019-12-19 01:47:49
  * @Email: animator.bullet@foxmail.com
  -->
 
@@ -24,7 +24,7 @@
     - [7️⃣ Storyboard](notes/Storyboard.md)
     - [8️⃣ Shader](notes/Shader.md)
 - ⚙️ 进阶定制
-- 💭 建议反馈
+- [💭 建议反馈](Issues.md)
 - [💊 关于关于](About.md)
 
 ---

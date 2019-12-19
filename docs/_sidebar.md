@@ -8,12 +8,11 @@
  -->
 
 - [🔥 aceDocs](Home.md)
-    - [💠  功能概述](Guide.md)
     - [📥 更新记录](Update.md)
 - ⚔️ 工具介绍
     - 1️⃣ 3ds Max 脚本
-        - [BulletKeyTools](tools/maxscripts/BulletKeyTools.md)
-        - [BulletTools](tools/maxscripts/BulletTools.md)
+        - [BulletKeyTools](tools/BulletKeyTools.md)
+        - [BulletTools](tools/BulletTools.md)
 - 🔖 自学笔记
     - [1️⃣ Unity](notes/Unity.md)
     - [2️⃣ Unreal](notes/Unreal.md)
@@ -28,5 +27,6 @@
 - [💊 关于关于](About.md)
 
 ---
-- Enjoy it！
+- 🎉 Enjoy it！
 ---
+- 💠💠💠💠💠💠💠💠💠💠

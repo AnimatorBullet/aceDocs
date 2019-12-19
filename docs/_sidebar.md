@@ -9,7 +9,7 @@
 
 - [🔥 aceDocs](Home.md)
     - [💠  功能概述](Guide.md)
-    - [📥 更新下载](Update.md)
+    - [📥 更新记录](Update.md)
 - ⚔️ 工具介绍
     - 1️⃣ 3ds Max 脚本
         - [BulletKeyTools](tools/maxscripts/BulletKeyTools.md)

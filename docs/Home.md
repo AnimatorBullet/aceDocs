@@ -1,12 +1,3 @@
-<!--
- * @Description: 
- * @Author: Bullet.S
- * @Date: 2019-12-04 12:47:31
- * @LastEditors  : Bullet.S
- * @LastEditTime : 2019-12-18 01:18:50
- * @Email: animator.bullet@foxmail.com
- -->
-
 # aceDocs<sub> v0.1_2019.12</sub>
 
 > **弄了个记录杂七杂八作品和自学笔记的网站，当然主要是帮助文档...(●—●)**

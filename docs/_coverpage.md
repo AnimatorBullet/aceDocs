@@ -1,11 +1,3 @@
-<!--
- * @Description: 
- * @Author: Bullet.S
- * @Date: 2019-12-05 22:18:42
- * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-16 22:16:16
- * @Email: animator.bullet@foxmail.com
- -->
 ![logo](_img/avatar.gif)
 
 # aceDocs<sub>v0.1</sub>

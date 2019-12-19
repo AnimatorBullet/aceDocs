@@ -1,12 +1,3 @@
-<!--
- * @Description: 
- * @Author: Bullet.S
- * @Date: 2019-12-08 12:58:21
- * @LastEditors  : Bullet.S
- * @LastEditTime : 2019-12-19 01:16:14
- * @Email: animator.bullet@foxmail.com
- -->
-
 # 更新记录<sub>（BUG或建议都可以点右下角留言或群里艾特）</sub>
 
 ---

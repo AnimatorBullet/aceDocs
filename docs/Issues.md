@@ -1,11 +1,3 @@
-<!--
- * @Description: 
- * @Author: Bullet.S
- * @Date: 2019-12-19 01:47:22
- * @LastEditors  : Bullet.S
- * @LastEditTime : 2019-12-19 01:50:50
- * @Email: animator.bullet@foxmail.com
- -->
 # 问题反馈
 
 ?> **先看有没有重复问题反馈，新问题可点击反馈，  

@@ -1,6 +1,15 @@
+<!--
+ * @Description: 
+ * @Author: Bullet.S
+ * @Date: 2019-12-08 12:58:21
+ * @LastEditors: Bullet.S
+ * @LastEditTime: 2019-12-21 11:44:51
+ * @Email: animator.bullet@foxmail.com
+ -->
+
 # aceDocs<sub> v0.1_2019.12</sub>
 
-> **弄了个记录杂七杂八作品和自学笔记的网站，当然主要是帮助文档...(●—●)**
+> **弄了个记录杂七杂八作品和自学笔记的网站，当然主要是帮助文档...(●—●)&emsp;[![help](https://img.shields.io/badge/%EF%BC%9F%E5%AE%89%E8%A3%85%E5%B8%AE%E5%8A%A9%E7%9B%B4%E8%BE%BE-%E7%82%B9%E6%88%91-important)](tools/BulletKeyTools.md)**
 
 ## 预览
 
@@ -9,21 +18,27 @@
 #### ** BulletKeyTools **
 
 ![preview_1](https://raw.githubusercontent.com/AnimatorBullet/aceDocs/master/docs/_img/preview_1.gif)  
-想把max中K动画可能会用到的功能集成，并尽量精简，  
-能直接点的就不浪费脚本按，脚本能左键就不用右键。
+- 不改变帧栏范围选择滑条为界的前后帧，方便做比较长的动画时拖节奏用，  
+- 后来渐渐拓展成一个K帧工具集合，个人不算太用脚本（虽然喜欢收集），  
+- 所以界面能直接点的功能基本没有加，咨询部分朋友的建议后集成到了目前的样子。  
+- 希望能帮到各动画师。  
 
 #### ** BulletTools **
 
 ![preview_2](https://raw.githubusercontent.com/AnimatorBullet/aceDocs/master/docs/_img/preview_2.gif)  
 专为动画师定制，按钮全部可自定义，  
-根据文件夹结构生成只属于你自己的工具集合~
+根据文件夹结构生成只属于你自己的工具集合~  
+
+- 脚本有两种，都是根据文件夹和脚本生成Max界面UI上的快捷按钮，一个是菜单栏一个是UI框。  
+- 主要因为每个人习惯用的脚本肯定都不同，所以能自定义应该会蛮方便的。  
+- 脚本菜单思路参考了吇鱼大佬的鱼罐头脚本但代码基本是自己慢慢码的，收获很大。 
 
 ##### ** BsOpenTools **
 
 ![preview_3](https://raw.githubusercontent.com/AnimatorBullet/aceDocs/master/docs/_img/preview_3.gif)  
-BulletKeyTools内置，快速打开文件，  
-添加收藏文件夹，方便下次直接打开，  
-还能过滤比如Standby，Walk，Run等等自定。
+- BulletKeyTools内置，快速打开文件，  
+- 添加收藏文件夹，方便下次直接打开，  
+- 还能过滤比如Standby，Walk，Run等等自定。
 
 <!-- tabs:end -->
 ## 下载  
@@ -35,7 +50,7 @@ BulletKeyTools内置，快速打开文件，
 ## 联系
 
 [![Q群](https://img.shields.io/badge/交流吹水群-993590655-red?style=flat-square&logo=Tencent-QQ)](https://jq.qq.com/?_wv=1027&k=5jFuDzd)
-&ensp;[![公众号](https://img.shields.io/badge/微信公众号-@AnimTime-success?style=flat-square&logo=wechat)](https://raw.githubusercontent.com/AnimatorBullet/aceDocs/master/docs/_img/WeChat.gif)
+&ensp;[![公众号](https://img.shields.io/badge/微信公众号-@AnimTime-success?style=flat-square&logo=wechat)](About.md)
 [![Weibo](https://img.shields.io/badge/Weibo-@ace--Bullet-yellow?style=flat-square&logo=sina-weibo)](https://weibo.com/super117)
 &ensp;<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=mfj38PT47fbrt-vs9fX87dn-9uH0_PD1t-r29A" style="text-decoration:none;"><img src="https://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_21.png"/></a>  
 [![Huaban](https://img.shields.io/badge/(已荒废的)-花瓣-ff69b4?style=flat-square&logo=addthis)](https://huaban.com/animatorbullet/)

@@ -3,11 +3,11 @@
  * @Author: Bullet.S
  * @Date: 2019-12-18 10:48:18
  * @LastEditors  : Bullet.S
- * @LastEditTime : 2019-12-20 14:02:09
+ * @LastEditTime : 2019-12-21 16:53:14
  * @Email: animator.bullet@foxmail.com
  -->
 
-# aceDocs<sub> v0.1_2019.12</sub>
+# 🔥 aceDocs<sub> v0.1_2019.12</sub>
 
 > **弄了个记录杂七杂八作品和自学笔记的网站，当然主要是帮助文档...(●—●)&emsp;[![help](https://img.shields.io/badge/%EF%BC%9F%E5%AE%89%E8%A3%85%E5%B8%AE%E5%8A%A9%E7%9B%B4%E8%BE%BE-%E7%82%B9%E6%88%91-important)](tools/BulletKeyTools.md)**
 
@@ -15,7 +15,9 @@
 
 <!-- tabs:start -->
 
-#### ** BulletKeyTools **
+### **BulletKeyTools**
+
+[![lan1](https://img.shields.io/github/languages/top/animatorbullet/bulletkeytools?style=flat-square)](https://github.com/AnimatorBullet)&emsp; ![](https://img.shields.io/github/languages/code-size/animatorbullet/bulletkeytools?style=flat-square) &emsp;[安装和功能介绍](tools/BulletKeyTools.md)  
 
 ![preview_1](_img/preview_1.gif)  
 - 不改变帧栏范围选择滑条为界的前后帧，方便做比较长的动画时拖节奏用，  
@@ -23,7 +25,9 @@
 - 所以界面能直接点的功能基本没有加，咨询部分朋友的建议后集成到了目前的样子。  
 - 希望能帮到各动画师。  
 
-#### ** BulletTools **
+### **BulletTools**
+
+[![lan2](https://img.shields.io/github/languages/top/animatorbullet/bullettools?style=flat-square)](https://github.com/AnimatorBullet)&emsp; ![](https://img.shields.io/github/languages/code-size/animatorbullet/bullettools?style=flat-square) &emsp;[安装和功能介绍](tools/BulletTools.md)  
 
 ![preview_2](_img/preview_2.gif)  
 专为动画师定制，按钮全部可自定义，  
@@ -33,8 +37,9 @@
 - 主要因为每个人习惯用的脚本肯定都不同，所以能自定义应该会蛮方便的。  
 - 脚本菜单思路参考了吇鱼大佬的鱼罐头脚本但代码基本是自己慢慢码的，收获很大。  
 
-##### ** BsOpenTools **
+#### **BsOpenTools**
 
+[![lan1](https://img.shields.io/github/languages/top/animatorbullet/bulletkeytools?style=flat-square)](https://github.com/AnimatorBullet)  
 ![preview_3](_img/preview_3.gif)  
 - BulletKeyTools内置，快速打开文件，  
 - 添加收藏文件夹，方便下次直接打开，  

@@ -1,3 +1,12 @@
+<!--
+ * @Description: 
+ * @Author: Bullet.S
+ * @Date: 2019-12-19 01:47:22
+ * @LastEditors  : Bullet.S
+ * @LastEditTime : 2019-12-21 16:38:47
+ * @Email: animator.bullet@foxmail.com
+ -->
+
 # 问题反馈
 
 ?> **先看有没有重复问题反馈，新问题可点击反馈，  
@@ -5,5 +14,6 @@
 
 ## BulletKeyTools
 
-> **未解决问题**：[![BulletKeyToolsIssues](https://img.shields.io/github/issues/AnimatorBullet/BulletKeyTools?color=yellow&style=flat-square)](https://github.com/AnimatorBullet/aceDocs/issues)  
-> **已关闭问题**：[![BulletKeyToolsIssues](https://img.shields.io/github/issues-closed/AnimatorBullet/BulletKeyTools?style=flat-square)](https://github.com/AnimatorBullet/aceDocs/issues)  
+> **加入讨论室：**[![chat](https://img.shields.io/gitter/room/Bullet-S/aceDocs?label=%E5%BB%BA%E8%AE%AE%E4%BA%A4%E6%B5%81&style=flat-square)](https://gitter.im/Bullet-S/aceDocs)  
+> **未解决问题：**[![BulletKeyToolsIssues](https://img.shields.io/github/issues/AnimatorBullet/BulletKeyTools?color=yellow&style=flat-square)](https://github.com/AnimatorBullet/aceDocs/issues)  
+> **已关闭问题：**[![BulletKeyToolsIssues](https://img.shields.io/github/issues-closed/AnimatorBullet/BulletKeyTools?style=flat-square)](https://github.com/AnimatorBullet/aceDocs/issues)  

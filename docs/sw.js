@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: Bullet.S
  * @Date: 2019-12-03 21:29:04
- * @LastEditors: Bullet.S
- * @LastEditTime: 2019-12-15 15:19:55
+ * @LastEditors  : Bullet.S
+ * @LastEditTime : 2019-12-24 11:37:59
  * @Email: animator.bullet@foxmail.com
  */
 /* ===========================================================
@@ -24,7 +24,6 @@ const HOSTNAME_WHITELIST = [
   'poser.pugx.org',
   'animatorbullet.github.io',
   'animatorbullet.github.io/aceDocs',
-  'unpkg.com',
   'cdn.bootcss.com'
 ]
 

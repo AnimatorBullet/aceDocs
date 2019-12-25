@@ -13,7 +13,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="_img/favicon.ico">
   <!-- PrismJS theme
   <link rel="stylesheet" href="path/to/prismjs-theme.css"> -->
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> -->
   <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.0-1/css/all.css">
   <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
@@ -186,9 +186,10 @@
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script>
+  <!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script> -->
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+  <!-- <script>
     const gitalk = new Gitalk({
       clientID: 'd89af3d290bacc12dbb7',
       clientSecret: '51df9b35f3ddd3cd29710739392ea08dcb4edde3',
@@ -198,7 +199,26 @@
       // facebook-like distraction free mode
       distractionFreeMode: false
     })
+  </script> -->
+  <!-- <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: '1AGeK3FqYwSwQ7LV8qDi7GB3-gzGzoHsz',
+          appKey: 'WBmhLPO8iX2PpC5nY0cSEdAU'
+      })
   </script>
+  <script>
+    new Valine({
+      el: '#vcomments' ,
+      appId: '1AGeK3FqYwSwQ7LV8qDi7GB3-gzGzoHsz',
+      appKey: 'WBmhLPO8iX2PpC5nY0cSEdAU',
+      notify:false, 
+      verify:false, 
+      avatar:'mp', 
+      placeholder: '路过留一爪？' 
+  });
+  </script> -->
   <script>
       ((window.gitter = {}).chat = {}).options = {
         room: 'Bullet-S/aceDocs',

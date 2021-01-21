@@ -7,6 +7,10 @@
  * @Email: animator.bullet@foxmail.com
  -->
 
+> 原网站挂了，新网站（付费域名今后应该不改了）：https://www.anibullet.com/    
+
+
+
 # aceDocs<sub> v0.1_2019.12</sub>
 
 > **弄了个记录杂七杂八作品和自学笔记的网站，当然主要是帮助文档...(●—●)&emsp;[![help](https://img.shields.io/badge/%EF%BC%9F%E5%AE%89%E8%A3%85%E5%B8%AE%E5%8A%A9%E7%9B%B4%E8%BE%BE-%E7%82%B9%E6%88%91-important)](tools/BulletKeyTools.md)**
